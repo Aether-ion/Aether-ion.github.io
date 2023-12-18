@@ -1,45 +1,44 @@
-<style>
-      h1 {
+h1 {
       color:black;
       background-image: linear-gradient(to bottom right, springgreen, dodgerblue);
-      }
-      
-      h1:hover {
+}
+
+h1:hover {
       color:honeydew;
       background-image: linear-gradient(to bottom left, springgreen, dodgerblue);
-      }
-      
-      h1:left-click {
+}
+
+h1:left-click {
       color:chartreuse;
-      }
-      
-      .text {
+}
+
+.text {
       text-align:center;
-      }
-      
-      table {
+}
+
+table {
       border: 2px solid blue;
       border-collapse:collapse;
       width:50%;
       margin:auto;
       margin-top:50px;
-      }
-      
-      td,
-      th {
+}
+
+td,
+th {
       padding:2.5em;
       border: 2px solid blue;
-      }
-      
-      td:hover {
+}
+
+td:hover {
       background-color: #00ff77;
-      }
-      
-      tr:hover {
+}
+
+tr:hover {
       background-color:orange;
-      
-      }
-      th:hover {
+
+}
+
+th:hover {
       background-color:orangered;
-      }
-    </style>
+}
