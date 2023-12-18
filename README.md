@@ -1,1 +1,1 @@
-first project, just seeing how things work!
+first project, just seeing how things work
