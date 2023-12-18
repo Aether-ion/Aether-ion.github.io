@@ -1,1 +1,1 @@
-first project, just seeing how things work
+just started learning, seeing how this works
