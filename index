@@ -2,10 +2,82 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>webbed site</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    
+    <style>
+      h1 {
+      color:black;
+      background-image: linear-gradient(to bottom right, springgreen, dodgerblue);
+      }
+      
+      h1:hover {
+      color:honeydew;
+      background-image: linear-gradient(to bottom left, springgreen, dodgerblue);
+      }
+      
+      h1:left-click {
+      color:chartreuse;
+      }
+      
+      .text {
+      text-align:center;
+      }
+      
+      table {
+      border: 2px solid blue;
+      border-collapse:collapse;
+      width:50%;
+      margin:auto;
+      margin-top:50px;
+      }
+      
+      td,
+      th {
+      padding:2.5em;
+      border: 2px solid blue;
+      }
+      
+      td:hover {
+      background-color: #00ff77;
+      }
+      
+      tr:hover {
+      background-color:orange;
+      
+      }
+      th:hover {
+      background-color:orangered;
+      }
+    </style>
   </head>
+  
   <body>
-    <h1>Title</h1>
+  
+    <h1 class="text">Hello</h1>
+    <table class="text">
+      <thead>
+        <tr>
+          <th>th</th>
+          <th>th</th>
+        </tr>
+        <tr>
+          <th>th</th>
+          <th>th</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>td</td>
+          <td>td</td>
+        </tr>
+         <tr>
+          <td>td</td>
+          <td>td</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    
   </body>
 </html>
